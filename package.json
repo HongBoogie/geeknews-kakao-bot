@@ -1,0 +1,15 @@
+{
+  "name": "geeknews-kakao-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "send": "node src/index.js",
+    "kakao:auth-url": "node src/kakao-auth-url.js",
+    "kakao:exchange": "node src/kakao-exchange-token.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
